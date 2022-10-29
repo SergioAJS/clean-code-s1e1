@@ -46,8 +46,8 @@
   display: flex;
 }
 
-#incomplete-tasks,
-#completed-tasks {
+.incomplete-tasks,
+.completed-tasks {
   margin: 0;
   padding: 0px;
 }
@@ -116,7 +116,7 @@ button {
   margin: 0 0 20px;
 }
 
-#new-task-form__input {
+.new-task-form__input {
   width: 318px;
 }
 
@@ -161,7 +161,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .task__label {
+.completed-tasks .task__label {
   text-decoration: line-through;
   color: #888;
 }
